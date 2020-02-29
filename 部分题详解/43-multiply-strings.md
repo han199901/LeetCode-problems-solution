@@ -6,7 +6,7 @@
 
 竖式运算思想，以 num1 为 123，num2 为 456 为例分析：
 
-![](https://pic.leetcode-cn.com/d24bf3174a878890e1273fbe35426ecdfa932c33efb464ed3602f4d149ed343a)
+![](../img/d24bf3174a878890e1273fbe35426ecdfa932c33efb464ed3602f4d149ed343a.png)
 
 实现：
 
@@ -86,7 +86,7 @@ class Solution {
 乘数 num1 位数为 MM，被乘数 num2 位数为 NN， num1 x num2 结果 res 最大总位数为 M+N
 num1[i] x num2[j] 的结果为 tmp(位数为两位，"0x","xy"的形式)，其第一位位于 res[i+j]，第二位位于 res[i+j+1]。
 结合下图更容易理解
-<img src="https://pic.leetcode-cn.com/171cad48cd0c14f565f2a0e5aa5ccb130e4562906ee10a84289f12e4460fe164-image.png" style="zoom:50%;" />
+<img src="..\img\171cad48cd0c14f565f2a0e5aa5ccb130e4562906ee10a84289f12e4460fe164-image.png" style="zoom:50%;" />
 
 实现：
 
